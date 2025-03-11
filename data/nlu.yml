@@ -1,0 +1,26 @@
+version: "3.1"
+nlu:
+- intent: find_recipe
+  examples: |
+    - Can you suggest a recipe with chicken?
+    - I have mushrooms and rice, what can I cook?
+    - Show me a vegetarian dish
+    - What Italian recipes do you have?
+
+- intent: list_ingredients
+  examples: |
+    - What are the ingredients for Chicken Curry?
+    - Show me the ingredients of Spaghetti Carbonara
+    - What do I need for Vegetable Stir Fry?
+
+- intent: greet
+  examples: |
+    - Hi
+    - Hello
+    - Hey there!
+
+- intent: goodbye
+  examples: |
+    - Bye
+    - See you later
+    - Goodbye!
