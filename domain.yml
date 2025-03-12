@@ -2,8 +2,10 @@ version: "3.1"
 intents:
   - find_recipe
   - list_ingredients
+  - list_instructions
   - greet
   - goodbye
+  - bot_challenge  # Added missing intent
 
 responses:
   utter_greet:
@@ -16,8 +18,9 @@ responses:
     - text: "I am a recipe assistant powered by Rasa!"
 
 actions:
-  - action_find_recipe
+  - action_find_recipe  # Added missing action
   - action_list_ingredients
+  - action_list_instructions
 
 session_config:
   session_expiration_time: 60

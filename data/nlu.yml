@@ -9,9 +9,18 @@ nlu:
 
 - intent: list_ingredients
   examples: |
-    - What are the ingredients for Chicken Curry?
-    - Show me the ingredients of Spaghetti Carbonara
-    - What do I need for Vegetable Stir Fry?
+    - What are the ingredients for [Chicken Curry](dish_name)?
+    - Show me the ingredients of [Spaghetti Carbonara](dish_name).
+    - What do I need for [Vegetable Stir Fry](dish_name)?
+
+- intent: list_instructions
+  examples: |
+    - How do I prepare [Chicken Curry](dish_name)?
+    - What are the steps to make [Spaghetti Carbonara](dish_name)?
+    - Give me the recipe instructions for [Vegetable Stir Fry](dish_name)?
+    - How is [Butter Chicken](dish_name) made?
+    - Tell me how to cook [Paneer Tikka](dish_name)?
+    - Show me the cooking steps for [Mushroom Risotto](dish_name)?
 
 - intent: greet
   examples: |

@@ -9,3 +9,8 @@ stories:
   steps:
   - intent: list_ingredients
   - action: action_list_ingredients
+
+- story: List instructions  # Added missing story
+  steps:
+  - intent: list_instructions
+  - action: action_list_instructions
